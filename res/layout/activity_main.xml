@@ -1,0 +1,260 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark3"
+    android:paddingTop="?android:attr/actionBarSize"
+    tools:context=".MainActivity" >
+
+ 
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:id="@+id/bottomLayout"
+         >
+
+        <Button
+            android:id="@+id/binBack"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Back"
+            android:textColor="#fff"
+             android:background="@drawable/gray_button"
+            />
+
+        <Button
+            android:id="@+id/binSubmit"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Submit"
+             android:background="@drawable/gray_button"
+            android:textColor="#fff" />
+    </LinearLayout>
+    
+    
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+    <LinearLayout
+        android:id="@+id/layyy1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottomLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" 
+        android:background="#40ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="20dp"
+        >
+        
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:orientation="vertical" >
+            
+                    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="100"
+             >
+
+                    <TextView
+        android:id="@+id/cBin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIN : 12345678901 is found FAKE!"
+        android:textColor="#80daeb"
+        android:textSize="14sp"
+        android:layout_weight="75"
+        />
+                    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:layout_gravity="right"
+       android:background="@drawable/circle_style"
+       android:id="@+id/loccc"
+       android:textColor="#fff"
+       android:textSize="8sp"
+                        />
+                    
+                    </LinearLayout>
+                    
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" 
+                        android:orientation="horizontal"
+                        android:gravity="left"
+                        >
+                        <TextView
+        android:id="@+id/cName"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="প্রতিষ্ঠানের নামঃ"
+        android:textColor="#fff"
+        android:textSize="16sp" 
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+                    <EditText
+          		    android:id="@+id/binCompName"
+          		    android:layout_width="wrap_content"
+          		    android:layout_height="wrap_content"
+          		    android:hint="Company Name"
+          		    android:layout_marginLeft="13dp"
+          		    android:layout_marginRight="13dp"
+          		    android:focusableInTouchMode="true"
+          		    android:textColor="#fff"
+          		    android:layout_marginBottom="7dp"
+          		    android:inputType="text"
+          		     />
+                                   
+                    </LinearLayout>
+                    
+           
+           
+           <TextView
+        android:id="@+id/cAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="প্রতিষ্ঠানের ঠিকানাঃ"
+        android:textColor="#fff"
+        android:textSize="16sp" 
+        android:layout_marginTop="10dp"
+        />
+
+                     		<EditText
+          		    android:id="@+id/binCompAdd"
+          		    android:layout_width="match_parent"
+          		    android:layout_height="wrap_content"
+          		    android:hint="Type Adress here!"
+          		    android:layout_marginLeft="13dp"
+          		    android:layout_marginRight="13dp"
+          		    android:focusableInTouchMode="true"
+          		   android:textColor="#fff"
+          		    android:layout_marginBottom="7dp"
+          		    android:inputType="text"
+          		     />
+           
+           
+           
+           
+           
+           <TextView
+        android:id="@+id/cAddaaaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="চালান/রশিদের ছবি সংযুক্ত করুন"
+        android:textColor="#fff"
+        android:textSize="16sp" 
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="8dp"
+        />
+
+           
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:background="#40ffffff"
+               >
+
+               <ImageView
+                   android:id="@+id/ImageView01"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/cam"
+                   android:layout_marginLeft="14dp"
+                    />
+
+
+
+               <TextView
+                   android:id="@+id/textView1"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_gravity="right"
+                   android:layout_marginLeft="20dp"
+                   android:gravity="center|right"
+                   android:text="Capture An Image"
+                   android:textColor="#008080" 
+                   android:textSize="10sp"
+                   android:layout_marginRight="10dp"
+                   />
+               
+               
+               </LinearLayout>
+               
+           
+           <TextView
+        android:id="@+id/cAddaaaasaaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="লিখিত বক্তব্য থাকলে পেশ করুন"
+        android:textColor="#fff"
+        android:textSize="16sp" 
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="8dp"
+        />
+
+           <EditText
+               android:id="@+id/binMsg"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:ems="10"
+               android:inputType="textMultiLine"
+                android:hint="Type your msg here!"
+               android:textColor="#fff"
+              android:layout_marginLeft="13dp"
+          		    android:layout_marginRight="13dp"
+          		    android:focusableInTouchMode="true"
+                >
+           </EditText>
+           
+           
+           <ImageView 
+               android:id="@+id/binImage"
+               android:layout_width="match_parent"
+               android:layout_height="150dp"
+               android:layout_gravity="center"
+               android:layout_marginTop="15dp"
+               android:layout_marginBottom="15dp"
+               />
+           
+                    
+        </LinearLayout>
+        
+        </ScrollView>
+        
+        
+
+    </LinearLayout>
+    
+    
+    
+    
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+</RelativeLayout>

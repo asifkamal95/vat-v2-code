@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+               android:background="#c7c9d4" 
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="যদি বি আই এন নম্বরটি ভুল প্রমানিত  হয় তাহলে এই প্রতিষ্ঠানের নিবন্ধন সনদ দেখতে চান। কোন সেলসম্যান মূসক চালান প্রদানে কোনরূপ অসহযোগিতা কিংবা দূর্ব্যবহার করলে অথবা মূসক ফাঁকি দিলে সংশ্লিস্ট মূসক কমিশনারেটে ইমেইলে (বন্ধনীতে প্রদর্শিত) এই অ্যাপের মাধ্যমে অভিযোগ জমা দিন।\n\nঢাকা পশ্চিমের মূসক নিবন্ধন নম্বর ১৭ (dhakawestcomm@yahoo.com), ঢাকা উত্তর ১৮(commdkn@nbr.gov.bd, commdkn@yahoo.com) ঢাকা দক্ষিণ ১৯ (cevdhksouth@yahoo.com), ঢাকা পূর্ব ২১ (vatdhakaeast@yahoo.com), রংপুর ১১ (rangpurvat@nbr.gov.bd), রাজশাহী ১২ (cevraj93@yahoo.com), যশোর ১৪(jessorecustoms@gmail.com), খুলনা ১৫ (khulnavathq@gmail.com), সিলেট ২২ (sylhetcustoms@yahoo.com), কুমিল্লা ২৩ (cevccomilla@nbr.gov.bd) এবং চট্টগ্রাম ২৪(ccevatctg@gmail.com) দিয়ে শুরু হয়েছে।\n\n মূসক নিবন্ধন নম্বরের প্রথম দুই ডিজিট দেখে বুঝে নিন প্রতিষ্ঠানটি কোন কমিশনারেটের অন্তভূর্ক্ত।\n\n\n\n"
+            android:textColor="#008080"
+            android:textSize="12sp"
+            android:layout_marginBottom="70dp"
+             />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কোন কমিশনারেটের অধীনে অভিযোগ করতে চান?"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+
+    <Spinner
+        android:id="@+id/bb_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="8dp"
+        
+        android:entries="@array/country_arrays"
+         />
+    
+   
+    
+</LinearLayout>

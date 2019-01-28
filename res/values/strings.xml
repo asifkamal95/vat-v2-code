@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VAT Checker</string>
+    <string name="complain">Complain</string>
+    <string name="faq">FAQ</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+        <string-array name="country_arrays">
+        <item>Select Your Zone</item>
+        <item>ঢাকা পশ্চিম </item>
+        <item>ঢাকা উত্তর </item>
+        <item>ঢাকা দক্ষিণ </item>
+        <item>ঢাকা পূর্ব </item>
+        <item>রংপুর </item>
+        <item>রাজশাহী </item>
+        <item>যশোর</item>
+        <item>খুলনা </item>
+        <item>সিলেট </item>
+        <item>কুমিল্লা </item>
+        <item>চট্টগ্রাম</item>
+    </string-array>
+
+</resources>

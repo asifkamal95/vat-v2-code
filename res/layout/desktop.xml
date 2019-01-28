@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:customAttrs="http://schemas.android.com/apk/res-auto"
+        android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:orientation= "vertical"
+    android:visibility="visible"
+    android:gravity="center"
+    android:background="@drawable/dark3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+  android:paddingTop="?android:attr/actionBarSize"  
+    >
+    
+    
+    
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:id="@+id/desktop_home"
+        android:padding="0dp"
+         >
+    
+    
+    
+    /////////////////////////////////////////////////////////
+   
+        <LinearLayout
+            android:id="@+id/sdfsxcccdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/layout_circle"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:background="#1Affffff"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="40dp"
+            android:weightSum="100"
+             >
+             
+            
+           <LinearLayout 
+                android:layout_width="match_parent"
+          		    android:layout_height="90dp"
+          		    android:orientation="vertical"
+          		    android:gravity="center"
+          		    android:background="#1Affffff"
+          		    >
+      <TextView
+          		    android:id="@+id/fTv"
+          		    android:layout_width="match_parent"
+          		    android:layout_height="wrap_content"
+          		    android:text="\nআমার ভ্যাট আমি দেবো \n   কেনার সময় চালান নেবো।\n"
+          		    android:layout_gravity="top"
+          		    android:gravity="center"
+          		    android:textSize="18sp"
+          		    android:textColor="#ddf1ff"
+          	
+          		    />
+      
+        <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+         />
+        
+        </LinearLayout>  
+      
+             
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" 
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"
+                >
+                
+                <LinearLayout 
+                    android:layout_width="match_parent"
+          		    android:layout_height="wrap_content"
+          		    android:orientation="horizontal"
+          		    android:gravity="center"
+                    >
+          		<TextView
+          		    android:id="@+id/cjskjhsgh"
+          		    android:layout_width="wrap_content"
+          		    android:layout_height="match_parent"
+          		    android:text="নিচে বি আই এন  (BIN) নাম্বারটি লিখুন"
+          		    android:gravity="center"
+          		    android:layout_gravity="center"
+          		    android:textSize="15sp"
+          		    android:textColor="#fff"
+          		     />
+          		<ImageView 
+          		    android:layout_width="wrap_content"
+          		    android:layout_height="wrap_content"
+          		    android:src="@drawable/ic_action_about"
+          		    android:layout_marginLeft="4dp"
+          		    android:layout_gravity="center"
+          		    android:id="@+id/whatIsBIN"
+          		    />
+          		
+ 
+          			
+          		</LinearLayout>
+
+          		<EditText
+          		    android:id="@+id/editText"
+          		    android:layout_width="match_parent"
+          		    android:layout_height="wrap_content"
+          		    android:hint="Type BIN number"
+          		    android:layout_marginLeft="13dp"
+          		    android:layout_marginRight="13dp"
+          		    android:focusableInTouchMode="true"
+          		    android:textColor="#fff"
+          		    android:layout_marginBottom="7dp"
+          		    android:inputType="number"
+          		     />
+
+          		<Button
+          		    android:id="@+id/search"
+          		    android:layout_width="126dp"
+          		    android:layout_height="wrap_content"
+          		    android:text="CHECK"
+          		    android:layout_gravity="right"
+          		    android:background="@drawable/gray_button"
+          		    android:layout_marginRight="13dp"
+          		    android:textColor="#008080"
+          		    />
+
+            </LinearLayout>
+          		
+    </LinearLayout>
+    
+        ////////////////////////////////////////////////////
+        
+    
+            <LinearLayout
+                android:id="@+id/layout_circle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="20dp"
+                android:gravity="center" >
+
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saved\nData"
+           android:background="@drawable/circle_style"
+            android:textSize="12sp"
+            android:textColor="#fff"
+             />
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saved\nData"
+            android:background="@drawable/circle_style"
+            android:textSize="12sp"
+            android:textColor="#fff"
+            android:layout_marginLeft="6dp"
+             />
+
+       <Button
+            android:id="@+id/Button03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saved\nData"
+            android:background="@drawable/circle_style"
+            android:textSize="12sp"
+            android:textColor="#fff"
+             android:layout_marginLeft="6dp"
+             />
+
+       <Button
+            android:id="@+id/Button04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saved\nData"
+            android:background="@drawable/circle_style"
+            android:textSize="12sp"
+            android:textColor="#fff"
+             android:layout_marginLeft="6dp"
+             />
+       
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+    </RelativeLayout>
+    
+    
+    
+        <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       android:visibility="gone"
+        android:orientation="vertical"
+        android:id="@+id/desktop_about"
+        android:padding="10dp" >
+            
+
+
+            <TextView
+                android:id="@+id/dfdsdfsdf"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/circle3"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="সামাজিক দ্বায়বদ্ধতা থেকে এই মোবাইল অ্যাপ্লিকেশনটি তৈরি করা হয়েছে। আমাদের সবার সম্মিলিত প্রচেষ্টাই পারে কোটি কোটি টাকার রাজস্ব ক্ষতি থেকে দেশকে রক্ষা করতে।\n\nঅ্যাপটি ব্যবহার করুন, কোন রকম রাজস্ব ফাঁকির  সম্ভাবনা দেখলে  VAT CHECKER অ্যাপের মাধ্যমে অভিযোগ করুন। অ্যাপটি সরকারি ওয়েবসাইট http://www.nbr.gov.bd/ থেকে তথ্য সংগ্রহ করে। তাই অ্যাপটির ফলাফল নির্ভরযোগ্য।\n\nDeveloped By: EnamelBD \n ================= \nJubayer Hossain (MIST)\nNishan Ishtiaque (MIST)\nAsif Kamal Turzo(BUET)\nMarzia Prova (MIST)\n\nwww.enamelbd.org"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+            
+  
+            </RelativeLayout>
+    
+    
+    
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       android:visibility="gone"
+        android:orientation="vertical"
+        android:id="@+id/desktop_setting"
+        android:padding="10dp" >
+
+           
+              <LinearLayout
+             android:id="@+id/dsnfkjsdnfkjs" 
+             android:layout_marginTop="?android:attr/actionBarSize"
+     android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/circle3"
+                android:gravity="center"
+                android:padding="10dp"
+    android:orientation= "vertical">  
+    
+    
+    
+            
+     
+      
+           <RelativeLayout
+          android:id="@+id/cacheSetting" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+	<!--  ListRow Left sied Thumbnail image -->
+	<LinearLayout android:id="@+id/thumbnailcache" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="3dip"	
+		 android:visibility="gone"	
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/image_bg" 
+	    android:layout_marginRight="5dip">
+        
+		<ImageView     
+			android:id="@+id/list_image_cache"   
+	        android:layout_width="50dip"
+	        android:layout_height="50dip"
+	        android:contentDescription="@string/hello_world"
+	        android:src="@drawable/no_image"/>
+        
+	</LinearLayout>
+    
+	<!-- Title Of Song-->
+    <TextView
+        android:id="@+id/titlecache"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnailcache"
+        android:layout_toRightOf="@+id/thumbnailcache"
+        android:layout_marginLeft="5dip"
+        android:textColor="#ffffff"
+        android:typeface="sans" 
+        android:text="Interested in Stock Market?"
+        android:textSize="21sp"/>
+
+	<!-- Artist Name -->
+    <TextView
+        android:id="@+id/sdetailscache"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlecache"
+        android:textColor="#c8c8c8"
+        android:text="DSE Alarm is the BEST mobile application for Dhaka Stock Exchange.\n\nMake your stock invest fun and easy!"
+        android:textSize="17sp"
+        android:layout_marginTop="1dip"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/thumbnailcache"/>
+    
+    
+    
+    
+            <Button
+        android:id="@+id/clearcurves"
+        android:text="Get @ DSE Alarm @ "
+        android:textColor="#666666"
+        android:layout_below="@id/sdetailscache"
+        android:layout_toRightOf="@+id/thumbnailcache"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="5dip"
+        android:visibility="visible"
+       android:background="@drawable/gray_button"
+        android:contentDescription="Favourite"
+        android:src="@drawable/ic_action_important_black" />
+    
+    
+
+
+</RelativeLayout>
+      
+      
+      
+
+           
+           
+
+           
+           
+           
+           
+           
+                      <RelativeLayout
+          android:id="@+id/resetSetting" 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+	<!--  ListRow Left sied Thumbnail image -->
+	<LinearLayout android:id="@+id/thumbnailreset" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding="3dip"		
+		 android:visibility="gone"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/image_bg" 
+	    android:layout_marginRight="5dip">
+        
+		<ImageView     
+			android:id="@+id/list_reset"   
+	        android:layout_width="50dip"
+	        android:layout_height="50dip"
+	        android:contentDescription="@string/hello_world"
+	        android:src="@drawable/settings"/>
+        
+	</LinearLayout>
+    
+	<!-- Title Of Song-->
+    <TextView
+        android:id="@+id/titlereset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnailreset"
+        android:layout_toRightOf="@+id/thumbnailreset"
+        android:layout_marginLeft="5dip"
+        android:textColor="#ffffff"
+        android:typeface="sans" 
+        android:text="Please Rate US"
+        android:textSize="21sp"/>
+
+	<!-- Artist Name -->
+    <TextView
+        android:id="@+id/sdetailsreset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlereset"
+        android:textColor="#c8c8c8"
+        android:text="Please do support us. Rate us and give your opinion on Google Play."
+        android:textSize="17sp"
+        android:layout_marginTop="1dip"
+        android:layout_marginLeft="5dip"
+        android:layout_toRightOf="@+id/thumbnailreset"/>
+    
+    
+    
+    
+            <Button
+        android:id="@+id/clearreset"
+        android:text="Rate Us"
+        android:textColor="#666666"
+        android:layout_below="@id/sdetailsreset"
+        android:layout_toRightOf="@+id/thumbnailreset"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="5dip"
+        android:visibility="visible"
+       android:background="@drawable/gray_button"
+        android:contentDescription="Favourite"
+        android:src="@drawable/ic_action_important_black" />
+    
+    
+
+
+</RelativeLayout>
+      
+
+      
+      
+      
+      
+    
+    </LinearLayout>
+        
+            </RelativeLayout>
+        
+        
+        
+        
+        
+    
+    
+
+</RelativeLayout>

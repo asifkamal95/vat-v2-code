@@ -1,0 +1,420 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark3"
+    android:paddingTop="?android:attr/actionBarSize"
+    tools:context=".MainActivity" >
+    
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true" 
+            android:id="@+id/scroll"
+            android:background="#40ffffff"
+            android:layout_margin="15dp"
+            >
+
+            <LinearLayout
+                android:id="@+id/lyat111"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                
+                
+                
+                ////////////////////////////////////////////////////////////////
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#40ffffff"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="ভোগ্য পণ্যের উপর ভ্যাটের হার কত ?"
+                        android:textColor="#0b5394"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                         />
+                </LinearLayout>
+                
+                
+
+                <TextView
+                  
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text="উত্তরঃ আমাদের দেশে ভোগ্য পণ্য ও সেবার উপর ১৫% হারে ভ্যাট ধার্য।"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                      android:layout_marginLeft="4dp"
+                       android:layout_marginRight="4dp"
+                       android:layout_marginBottom="8dp"
+                    
+                     />
+                ///////////////////////////////////////////////////////////////////////
+                
+                
+                                ////////////////////////////////////////////////////////////////
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#40ffffff"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="ভ্যাটের কোন রশিদ যদি বিক্রেতা প্রদান করতে না চায় তবে কি করা উচিৎ ?"
+                        android:textColor="#0b5394"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                         />
+                </LinearLayout>
+                
+                
+
+                <TextView
+                  
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text="উত্তরঃ আপনি আমাদের অ্যাপ থেকে সরাসরি অভিযোগ করতে পারেন । ফেসবুক পেজ বা সরাসরি মেইল করে অভিযোগ করতে পারেন ।মেইল অ্যাড্রেস গুলো নিম্নরুপঃ\n\nঢাকা পশ্চিমের :(dhakawestcomm@yahoo.com).\nঢাকা উত্তর: (commdkn@nbr.gov.bd, commdkn@yahoo.com) .\nঢাকা দক্ষিণ :(cevdhksouth@yahoo.com)\n ঢাকা পূর্ব: (vatdhakaeast@yahoo.com)\nরংপুর : (rangpurvat@nbr.gov.bd)\nরাজশাহী : (cevraj93@yahoo.com)\nযশোর :(jessorecustoms@gmail.com)\nখুলনা : (khulnavathq@gmail.com)\nসিলেট : (sylhetcustoms@yahoo.com)\nকুমিল্লা : (cevccomilla@nbr.gov.bd)\nএবং চট্টগ্রাম :(ccevatctg@gmail.com)
+"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                      android:layout_marginLeft="4dp"
+                       android:layout_marginRight="4dp"
+                       android:layout_marginBottom="8dp"
+                    
+                     />
+                ///////////////////////////////////////////////////////////////////////
+                
+                              
+                ////////////////////////////////////////////////////////////////
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#40ffffff"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="কেউ যদি আমাদের ভূয়া চালান পত্র দেয়,তাহলে কি করা উচিৎ ?"
+                        android:textColor="#0b5394"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                         />
+                </LinearLayout>
+                
+                
+
+                <TextView
+                  
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text="উত্তরঃ সঠিক ভ্যাট চালান দিতে না পারলে সেই এলাকার কমিশনারকে অভিযোগ করুন। ইমেইলগুলো আমাদের পেজে দেয়া আছে। "
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                      android:layout_marginLeft="4dp"
+                       android:layout_marginRight="4dp"
+                       android:layout_marginBottom="8dp"
+                    
+                     />
+                ///////////////////////////////////////////////////////////////////////  
+                
+                         ////////////////////////////////////////////////////////////////
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#40ffffff"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="What is BIN?"
+                        android:textColor="#0b5394"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                         />
+                </LinearLayout>
+                
+                
+
+                <TextView
+                  
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text="উত্তরঃ Business Identification Number"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                      android:layout_marginLeft="4dp"
+                       android:layout_marginRight="4dp"
+                       android:layout_marginBottom="8dp"
+                    
+                     />
+                ///////////////////////////////////////////////////////////////////////       
+                
+                                         ////////////////////////////////////////////////////////////////
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#40ffffff"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="সার্ভিস চার্জ নেয়াটা কি অন্যায় না? তারা ব্যাবসা খুলেছে তো সার্ভিস দেয়ার জন্যই। এজন্য আবার আলাদা চার্জ কিসের? ব্যাপারটা কি টিকেট কেটে খেতে যাওয়ার মত হলোনা? এর প্রতিকার কী?"
+                        android:textColor="#0b5394"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                         />
+                </LinearLayout>
+                
+                
+
+                <TextView
+                  
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text="উত্তরঃ\nএরা যেন সার্ভিস চার্জ না নেয়, এজন্য জোরদার সামাজিক আন্দোলন গড়ে তুলুন। এখন ভোক্তাদের বেশ কিছু ফেসবুক গ্রুপ আছে। এসব গ্রুপে আলোচনার সূত্রপাত করুন আজই।"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                      android:layout_marginLeft="4dp"
+                       android:layout_marginRight="4dp"
+                       android:layout_marginBottom="8dp"
+                    
+                     />
+                ///////////////////////////////////////////////////////////////////////   
+                
+                
+                                        ////////////////////////////////////////////////////////////////
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#40ffffff"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="যেসব ফুডকোর্ট, ফ্যাশনহাউস,চেইন শপ গুলোর জেনুইন ভ্যাট রেজি: আছে, সেগুলার লিষ্ট পেলে অনেক ভাল হত। "
+                        android:textColor="#0b5394"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                         />
+                </LinearLayout>
+                
+                
+
+                <TextView
+                  
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text="উত্তরঃ আপনি তাদের ভ্যাট রেজিস্ট্রেশান সার্টিফিকেট দেখতে চান । তারা সেটি দেখাতে বাধ্য । এছাড়া এই মোবাইল অ্যাপটি ব্যবহার করেও আপনি চেক করতে পারেন।"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                      android:layout_marginLeft="4dp"
+                       android:layout_marginRight="4dp"
+                       android:layout_marginBottom="8dp"
+                    
+                     />
+                ///////////////////////////////////////////////////////////////////////  
+                
+                                                ////////////////////////////////////////////////////////////////
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#40ffffff"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="ইলেক্ট্রিক ক্যাশ রেজিস্টার(ECR) কি ? "
+                        android:textColor="#0b5394"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                         />
+                </LinearLayout>
+                
+                
+
+                <TextView
+                  
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text="উত্তরঃ ECR বা ইলেক্ট্রোনিক ক্যাশ রেজিস্টার হল অটোমেটেড পদ্ধতিতে চালানপত্র প্রদান ও বিক্রয়ের হিসেব রাখার যন্ত্র। "
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                      android:layout_marginLeft="4dp"
+                       android:layout_marginRight="4dp"
+                       android:layout_marginBottom="8dp"
+                    
+                     />
+                //////////////////////////////////////////////////////////////////////        
+                                                         ////////////////////////////////////////////////////////////////
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#40ffffff"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="কোন কোন প্রতিষ্ঠানের জন্য ECR ব্যবহার বাধ্যতামূলক করা হয়েছে?"
+                        android:textColor="#0b5394"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                         />
+                </LinearLayout>
+                
+                
+
+                <TextView
+                  
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text="উত্তরঃ জাতীয় রাজস্ব বোর্ড আবাসিক হোটেল, রেস্টুরেন্ট, মিষ্টির দোকান, জুয়েলার্স, বিউটি পার্লার, কমিউনিটি সেন্টার, সুপার শপ, ডিপার্মেন্টাল স্টোর, বড় বড় মার্কেটের সকল ধরণের দোকান, বেকারি, ফাস্টফুডের দোকানের জন্য ইসিআর মেশিনের মাধ্যমে মূসক চালানপত্র প্রদান বাধ্যতামূলক করেছে।"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                      android:layout_marginLeft="4dp"
+                       android:layout_marginRight="4dp"
+                       android:layout_marginBottom="8dp"
+                    
+                     />
+                //////////////////////////////////////////////////////////////////////   
+                                                                     ////////////////////////////////////////////////////////////////
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#40ffffff"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="ECR  মেশিন অথবা POS সফটওয়্যার ব্যবহার বাধ্যতামূলক থাকা সত্ত্বেও কেউ ব্যবহার না করলে কি হবে?"
+                        android:textColor="#0b5394"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                         />
+                </LinearLayout>
+                
+                
+
+                <TextView
+                  
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text="উত্তরঃ ECR  মেশিন অথবা POS সফটওয়্যার ব্যবহার বাধ্যতামূলক থাকা সত্ত্বেও কেউ ব্যবহার না করলে এবং রাজস্ব ফাঁকির ঘটনা উদ্ঘাটিতো হলে মূল্য সংযোজোন আইন ১৯৯১ এর ৩৭ ধারা অনুযায়ী তা শাস্তিযোগ্য অপরাধ বলে গণ্য হবে । "
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                      android:layout_marginLeft="4dp"
+                       android:layout_marginRight="4dp"
+                       android:layout_marginBottom="8dp"
+                    
+                     />
+                //////////////////////////////////////////////////////////////////////    
+             
+                                                                               ////////////////////////////////////////////////////////////////
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#40ffffff"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginTop="8dp"
+                        android:text="বিদ্যুৎ সংযোগ বিচ্ছিন্ন হয়ে গেলে  ECR এর ব্যাপারে করনীয় কি ?"
+                        android:textColor="#0b5394"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginRight="4dp"
+                         />
+                </LinearLayout>
+                
+                
+
+                <TextView
+                  
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:text="উত্তরঃ বিদ্যুৎ সংযোগ বিচ্ছিন্ন হলে অবশ্যই কোন ব্যাটারি ব্যাক-আপ বা অন্য কোন স্থায়ী ব্যাক-আপ এর বাবস্থা থাকা বাধ্যতামূলক। \n\n"
+                    android:textColor="#fff"
+                    android:textSize="13sp"
+                      android:layout_marginLeft="4dp"
+                       android:layout_marginRight="4dp"
+                       android:layout_marginBottom="8dp"
+                    
+                     />
+                //////////////////////////////////////////////////////////////////////  
+             
+             
+                
+                
+                
+                
+            </LinearLayout>
+            
+        </ScrollView>
+    
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+</RelativeLayout>
